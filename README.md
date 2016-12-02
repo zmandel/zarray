@@ -5,4 +5,7 @@ The template works with any class type and gives you a familiar array-looking ob
 
 For efficient use, make sure that video or other drivers are not already using too much of your RAM, else that reduces from the total 4GB available.
 
-Also includes a common multithread library used by zarray and util library to define "assert" and a thread manager class (which also uses the multithread library)
+Also:
+multithread library: used by zarray, basic multithread support.
+
+util library: defines "assert" and a thread manager class (which also uses the multithread library)
